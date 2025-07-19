@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body{
+  background-color: #111111;
+}
+
+.customScrollBar{
+  scrollbar-width: bold;
+  scrollbar-color: black #eeeeee;
+  scrollbar-gutter: unset;
+  scroll-margin: 100px;
+}
+
+.customScrollBar::-webkit-scrollbar-button{
+  display: none;
+}
